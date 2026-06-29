@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <!-- Question text -->
+    <TextView
+        android:id="@+id/tvHistoryQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#212121"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:lineSpacingExtra="3dp"
+        android:layout_marginBottom="6dp"
+        android:text="@string/question_placeholder"/>
+
+    <!-- Selected answer -->
+    <TextView
+        android:id="@+id/tvHistorySelected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#555555"
+        android:textSize="13sp"
+        android:layout_marginBottom="2dp"
+        android:text="@string/history_selected_default"/>
+
+    <!-- Correct answer -->
+    <TextView
+        android:id="@+id/tvHistoryCorrect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#1565C0"
+        android:textSize="13sp"
+        android:layout_marginBottom="6dp"
+        android:text="@string/history_correct_default"/>
+
+    <!-- Result label: Đúng / Sai -->
+    <TextView
+        android:id="@+id/tvHistoryResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:layout_gravity="end"
+        android:text="@string/correct"/>
+</LinearLayout>

@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Quiz Game</string>
+    <string name="app_title_emoji">🧠 QUIZ GAME</string>
+
+    <!-- Subtitles -->
+    <string name="subtitle_challenge">Thử thách kiến thức của bạn!</string>
+    <string name="subtitle_create_account">Tạo tài khoản mới</string>
+
+    <!-- Auth labels -->
+    <string name="login">ĐĂNG NHẬP</string>
+    <string name="register">ĐĂNG KÝ</string>
+    <string name="username">Tên đăng nhập</string>
+    <string name="password">Mật khẩu</string>
+    <string name="confirm_password">Xác nhận mật khẩu</string>
+    <string name="no_account">Chưa có tài khoản? Đăng ký ngay</string>
+    <string name="have_account">Đã có tài khoản? Đăng nhập</string>
+    <string name="logout">Đăng xuất</string>
+
+    <!-- Hints -->
+    <string name="hint_username">Nhập tên đăng nhập</string>
+    <string name="hint_password">Nhập mật khẩu</string>
+    <string name="hint_confirm_password">Nhập lại mật khẩu</string>
+
+    <!-- Error placeholder (shown via code, hidden in XML) -->
+    <string name="error_placeholder"> </string>
+
+    <!-- Home screen -->
+    <string name="play_now">CHƠI NGAY</string>
+    <string name="history">LỊCH SỬ</string>
+    <string name="exchange_points">ĐỔI ĐIỂM</string>
+    <string name="welcome_default">Xin chào!</string>
+    <string name="default_coins">100</string>
+    <string name="default_hearts">5</string>
+    <string name="emoji_history"> 📜</string>
+    <string name="emoji_gift"> 🎁</string>
+
+    <!-- Topic screen -->
+    <string name="topic">CHỦ ĐỀ</string>
+    <string name="science">KHOA HỌC</string>
+    <string name="culture">VĂN HÓA</string>
+    <string name="art">NGHỆ THUẬT</string>
+    <string name="sport">THỂ THAO</string>
+
+    <!-- Quiz screen -->
+    <string name="confirm">XÁC NHẬN</string>
+    <string name="next_question">CÂU TIẾP</string>
+    <string name="help_5050">50/50</string>
+    <string name="help_x2">X2</string>
+    <string name="help_pause">PAUSE</string>
+    <string name="default_score">0</string>
+    <string name="default_timer">00:30</string>
+    <string name="default_question_num">1/5</string>
+    <string name="topic_placeholder">Chủ đề</string>
+    <string name="question_placeholder">Câu hỏi sẽ hiển thị ở đây</string>
+    <string name="answer_a_placeholder">A. Đáp án A</string>
+    <string name="answer_b_placeholder">B. Đáp án B</string>
+    <string name="answer_c_placeholder">C. Đáp án C</string>
+    <string name="answer_d_placeholder">D. Đáp án D</string>
+    <string name="time_up">Hết giờ!</string>
+
+    <!-- Result dialog -->
+    <string name="congratulations">CHÚC MỪNG</string>
+    <string name="play_again">CHƠI LẠI</string>
+    <string name="view_history">XEM LỊCH SỬ</string>
+    <string name="home_menu">VỀ TRANG CHỦ</string>
+    <string name="emoji_brain">🧠</string>
+    <string name="score_default">Điểm số: 0</string>
+    <string name="total_default">Tổng số câu hỏi: 5</string>
+    <string name="correct_default">Số câu trả lời đúng: 0</string>
+    <string name="wrong_default">Số câu trả lời sai: 0</string>
+
+    <!-- History screen -->
+    <string name="history_title">Lịch sử câu trả lời</string>
+    <string name="empty_history">Chưa có lịch sử chơi</string>
+    <string name="back_arrow">←</string>
+    <string name="correct">Đúng</string>
+    <string name="wrong">Sai</string>
+
+    <!-- Content descriptions (accessibility) -->
+    <string name="cd_coin">Điểm xu</string>
+    <string name="cd_heart">Tim</string>
+    <string name="cd_timer">Đồng hồ đếm ngược</string>
+    <string name="cd_option_a">Lựa chọn A</string>
+    <string name="cd_option_b">Lựa chọn B</string>
+    <string name="cd_option_c">Lựa chọn C</string>
+    <string name="cd_option_d">Lựa chọn D</string>
+
+    <!-- History item defaults -->
+    <string name="history_selected_default">Đã chọn: </string>
+    <string name="history_correct_default">Đáp án đúng: </string>
+</resources>
